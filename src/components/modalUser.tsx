@@ -1,6 +1,6 @@
-import { IModalUser } from "@/interfaces/users";
+import { IUserDetail } from "@/interfaces/users";
 
-export default function ModalUser(props: {person: IModalUser}) {
+export default function ModalUser(props: {person: IUserDetail}) {
     const person = props.person;
 
     return (

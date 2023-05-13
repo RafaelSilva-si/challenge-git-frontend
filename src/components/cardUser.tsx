@@ -1,6 +1,6 @@
-import { ICardUser } from "@/interfaces/users";
+import { IUser } from "@/interfaces/users";
 
-export default function CardUser(props: {person: ICardUser}) {
+export default function CardUser(props: {person: IUser}) {
     const person = props.person;
     return (
         <li key={person.id} className="flex justify-between gap-x-6 py-5">

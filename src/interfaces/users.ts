@@ -1,14 +1,14 @@
-interface ICardUser {
+interface IUser {
     name: string,
     id: number,
     imageUrl: string,
 }
 
-interface IModalUser {
+interface IUserDetail {
     login: string,
     id: number,
     createdAt: string,
     URL: string,
     imageUrl: string
 }
-export type { ICardUser, IModalUser }
+export type { IUser, IUserDetail }
