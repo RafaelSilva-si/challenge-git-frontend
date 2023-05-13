@@ -4,4 +4,11 @@ interface ICardUser {
     imageUrl: string,
 }
 
-export type { ICardUser }
+interface IModalUser {
+    login: string,
+    id: number,
+    createdAt: string,
+    URL: string,
+    imageUrl: string
+}
+export type { ICardUser, IModalUser }
