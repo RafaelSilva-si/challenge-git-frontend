@@ -5,19 +5,7 @@ import { atom } from "recoil";
 
 export const listUsersState = atom<IUser[]>({
     key: 'usersState',
-    default:[
-      {
-        name: 'rafaelsilva-si',
-        id: 1234534,
-        imageUrl:'https://avatars.githubusercontent.com/u/77937182?v=4',
-      },
-      {
-        name: 'diego-shawandpartners',
-        id: 453242,
-        imageUrl:
-          'https://avatars.githubusercontent.com/u/80269900?v=4',
-      },
-    ]
+    default:[]
   });
 
   export const userState = atom<IUserDetail>({
