@@ -1,15 +1,15 @@
 import axios from "axios";
 
 function getAllUsers(page: number) {
-    axios.get(`https://api.github.com/repos/git/git/contributors?page=${page}`)
+    return axios.get(`https://api.github.com/repos/git/git/contributors?page=${page}`)
         .then(response => {
-            return response;
+            return response.data;
         })
         .catch(error => alert(error));
 }
 
 function getUserByName(name: string) {
-    axios.get(`https://api.github.com/users/${name}`)
+    return axios.get(`https://api.github.com/users/${name}`)
         .then(response => {
             return response;
         })
@@ -17,7 +17,7 @@ function getUserByName(name: string) {
 }
 
 function getReposByContributor(name: string) {
-    axios.get(`https://api.github.com/users/${name}/repos`)
+    return axios.get(`https://api.github.com/users/${name}/repos`)
         .then(response => {
             return response;
         })
