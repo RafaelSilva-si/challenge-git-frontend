@@ -35,8 +35,8 @@ export default function Home() {
           <InputSearch user={user} setUser={setUser} onClick={() => handleListUserByName(user)} />
           <div className='pb-10 pt-10 w-[80%] h-[400px] overflow-auto'>
             <ul role="list" className="divide-y divide-gray-100">
-              {users?.map((person) => (
-                <CardUser person={person} />
+              {users?.map((person, i:number) => (
+                <CardUser person={person} key={i}/>
               ))}
             </ul>
           </div>

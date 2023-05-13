@@ -14,8 +14,8 @@ export default function ModalRepo(props: {repos: IRepos[]}) {
                 </div>
                 <h1 className="mb-1 mt-5 font-semibold">Repositories</h1>
                 <ul role="list" className="divide-y divide-gray-100">
-                    {repos.map((repo: any) => (
-                        <CardRepo repo={repo} />
+                    {repos.map((repo: any, i: number) => (
+                        <CardRepo repo={repo} key={i}/>
                     ))}
                 </ul>
             </div>
