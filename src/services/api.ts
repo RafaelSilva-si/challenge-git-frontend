@@ -1,7 +1,8 @@
 import axios from "axios";
 
+
 function getAllUsers(page: number) {
-    return axios.get(`https://api.github.com/repos/git/git/contributors?page=${page}`)
+    return axios.get(`https://api.github.com/users?since=${page}`)
         .then(response => {
             return response.data;
         })
@@ -11,7 +12,7 @@ function getAllUsers(page: number) {
 function getUserByName(name: string) {
     return axios.get(`https://api.github.com/users/${name}`)
         .then(response => {
-            return response;
+            return response.data;
         })
         .catch(error => alert(error));
 }
