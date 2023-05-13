@@ -5,11 +5,11 @@ interface IUser {
 }
 
 interface IUserDetail {
-    login: string,
-    id: number,
-    createdAt: string,
-    URL: string,
-    imageUrl: string
+    login?: string,
+    id?: number,
+    createdAt?: string,
+    URL?: string,
+    imageUrl?: string
 }
 
 interface IPagination {
