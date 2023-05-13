@@ -1,22 +1,11 @@
 import CardUser from '@/components/cardUser'
+import { listUsersState } from '@/states/users'
+import { useRecoilValue } from 'recoil'
 
 export default function Home() {
 
   //List provisional of Peaple.
-  const people = [
-    {
-      name: 'rafaelsilva-si',
-      id: 1234534,
-      imageUrl:
-        'https://avatars.githubusercontent.com/u/77937182?v=4',
-    },
-    {
-      name: 'diego-shawandpartners',
-      id: 453242,
-      imageUrl:
-        'https://avatars.githubusercontent.com/u/80269900?v=4',
-    },
-  ]
+  const people = useRecoilValue(listUsersState)
 
   return (
     <main className={`flex min-h-screen flex-col items-center p-24`}>
