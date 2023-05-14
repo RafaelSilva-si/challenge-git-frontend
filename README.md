@@ -1,4 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![image](https://github.com/RafaelSilva-si/challenge-git-frontend/assets/77937182/6edcb9e0-c87f-46de-8086-fe443f50ed4d)
+
+# Challenge Github Frontend :electron:
+
+> Status: Finished :white_check_mark:
+
+</br>
+</br>
+
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![react](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+🔗 https://challenge-git-frontend.vercel.app/
+
+</br>
+
+## Info ℹ️
+This app there is integration with github api and gets all user from github separates by pagination or you can search for user by name too. Then, you can chose one user and see their details. There is a link to go to the user's github page and one link to go the user's repositories. This app is responsive, you can access in your cellphone or PC.
 
 ## Getting Started
 
@@ -36,3 +55,5 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+![1627616883421](https://user-images.githubusercontent.com/77937182/157932279-c8aad7d0-0778-43c0-be52-b7e175d56835.gif)
