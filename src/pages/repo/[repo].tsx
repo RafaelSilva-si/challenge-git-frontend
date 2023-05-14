@@ -1,11 +1,19 @@
-import CardRepo from "@/components/cardRepo"
 import ModalRepo from "@/components/modalRepo"
-import ModalUser from "@/components/modalUser"
+import { useRepos } from "@/hooks/useRepos"
 import { reposState } from "@/states/repos"
+import { useRouter } from "next/router"
+import { useEffect } from "react"
 import { useRecoilValue } from "recoil"
 
 export default function RepoUserList() {
-    //List provisional of repos.
+    const router = useRouter();
+    const { handleListRepos } = useRepos();
+
+    useEffect(() => {
+        if(router.query.repo)
+        handleListRepos(router.query.repo)
+      }, [router.query]);
+
     const repos = useRecoilValue(reposState)
 
     return (
