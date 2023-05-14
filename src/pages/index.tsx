@@ -28,7 +28,7 @@ export default function Home() {
   }
 
   return (
-    <main className={`flex min-h-screen flex-col items-center p-24`}>
+    <main className={`flex min-h-screen flex-col items-center justify-center p-10`}>
       <div className="w-full h-[700px] max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
         <div className="flex flex-col items-center pb-10 pt-10 ">
           <h1 className='mb-2 font-semibold'>Users</h1>

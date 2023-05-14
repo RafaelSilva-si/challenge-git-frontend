@@ -11,7 +11,7 @@ export default function CardUser(props: {person: IUser}) {
                     <p className="mt-1 truncate text-xs leading-5 text-gray-500">Id: {person.id}</p>
                 </div>
             </div>
-            <div className="hidden sm:flex sm:flex-col sm:items-end mr-5">
+            <div className="sm:flex sm:flex-col  mr-5">
                 <a href={`user/${person.name}`}>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
