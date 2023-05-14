@@ -20,7 +20,7 @@ function getUserByName(name: string) {
 function getReposByContributor(name: string) {
     return axios.get(`https://api.github.com/users/${name}/repos`)
         .then(response => {
-            return response;
+            return response.data;
         })
         .catch(error => alert(error));
 }
