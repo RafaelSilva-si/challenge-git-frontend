@@ -5,7 +5,6 @@
 > Status: Finished :white_check_mark:
 
 <img width="305" alt="image" src="https://github.com/RafaelSilva-si/challenge-git-frontend/assets/77937182/29178810-318c-4ebe-b88e-8203e0a94893">
-<img width="276" alt="image" src="https://github.com/RafaelSilva-si/challenge-git-frontend/assets/77937182/3c7fb765-a5f8-46d0-ae24-640fe75028a0">
 <img width="252" alt="image" src="https://github.com/RafaelSilva-si/challenge-git-frontend/assets/77937182/799a272c-b885-4cdb-9dfc-61929dddeb74">
 
 
