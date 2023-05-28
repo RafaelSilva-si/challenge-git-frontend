@@ -1,4 +1,3 @@
-![image](https://github.com/RafaelSilva-si/challenge-git-frontend/assets/77937182/6edcb9e0-c87f-46de-8086-fe443f50ed4d)
 
 # Challenge Github Frontend :electron:
 
